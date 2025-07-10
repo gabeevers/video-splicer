@@ -6,6 +6,13 @@ output_clips/*
 video-splicer/public/output_clips/*
 !video-splicer/public/output_clips/.gitkeep
 
+# Large video files (prevent accidental commits)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
 # Node modules
 node_modules/
 

@@ -64,7 +64,7 @@ Separate with commas: `00:13:00,00:13:00-00:13:30,-00:05:00,00:20:00-,00:25:00`
 
 - **Python Script**: `video_splicer.py`
 - **Web App**: `video-splicer/` folder
-- **Sample Video**: `sample_input/yasirpod.mp4`
+- **Input**: Use your own MP4 video files
 - **Output**: `output_clips/` folder
 
 ## 🔧 Troubleshooting

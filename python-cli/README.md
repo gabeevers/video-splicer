@@ -15,7 +15,7 @@ A simple Python script to extract video clips and frames from an MP4 file using 
    ```
 4. **Run the script**
    ```bash
-   python video_splicer.py sample_input/yasirpod.mp4 "00:13:00,00:13:00-00:13:30,-00:05:00,00:20:00-,00:25:00"
+   python video_splicer.py your_video.mp4 "00:13:00,00:13:00-00:13:30,-00:05:00,00:20:00-,00:25:00"
    ```
 
 ## 📋 Time Instruction Formats
