@@ -1,0 +1,46 @@
+# Output files (keep directories, ignore generated content)
+output_clips/*
+!output_clips/.gitkeep
+
+# Web app output files
+video-splicer/public/output_clips/*
+!video-splicer/public/output_clips/.gitkeep
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
